@@ -12,7 +12,9 @@
 ## 3. Workflow
 - **Planning**: Before executing any complex task, you MUST create an `implementation_plan.md`.
 - **Approval**: Never proceed to the `EXECUTION` stage until the user has approved the plan.
+- **Strict Scope Constraint**: Do NOT make unprompted changes or arbitrary improvements (e.g., redesigning UI, rewriting logic, changing styles) unless explicitly requested by the user. Only fix the specific issue or implement the specific feature asked for. 
 - **Local Rules Overrides**: Always check for a `.agent/rules/` folder in the current project. If project-specific rules exist, they take precedence over these global rules.
+
 
 ---
 *Follow these rules as if the cleanliness of your code depends on it (because it does)!* 🚀
